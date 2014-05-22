@@ -1,1 +1,17 @@
-["index.md"]
+[
+    "index.md",
+    "git-born.md",
+    [
+        "what-is-git.md",
+        "git-tree.md",
+        "the-core-of-git-internals.md"
+    ],
+    [
+        "git-objects-blob.md",
+        "git-objects-blob-1.md",
+        "git-objects-blob-2.md",
+        "git-objects-tree.md",
+        "git-objects-tree-1.md",
+        "git-objects-tree-2.md"
+    ]
+]
