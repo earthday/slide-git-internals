@@ -12,6 +12,12 @@
         "git-objects-blob-2.md",
         "git-objects-tree.md",
         "git-objects-tree-1.md",
-        "git-objects-tree-2.md"
+        "git-objects-tree-2.md",
+        "git-objects-commit.md",
+        "git-objects-commit-1.md",
+        "git-objects-commit-2.md",
+        "git-objects-commit-3.md",
+        "git-objects-commit-4.md",
+        "git-objects-commit-5.md"
     ]
 ]
