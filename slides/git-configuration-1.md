@@ -12,6 +12,8 @@ $ git config --global core.autocrlf <true | input | false>
 
 __<font color='#F70'>If you're on a Windows machine, set it to ```true``` -- this converts LF endings into CRLF when you check out code.</font>__
 
+auto.safecrlf
+
 ```
 $ git config --global core.safecrlf <true | false | warn>
 ```

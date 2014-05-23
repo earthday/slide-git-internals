@@ -25,7 +25,8 @@
         "git-branch-1.md"
     ],
     [
-      "git-configuration.md",
-      "git-configuration-1.md"
-    ]
+        "git-configuration.md",
+        "git-configuration-1.md"
+    ],
+    "git-resources.md"
 ]
