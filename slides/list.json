@@ -19,5 +19,13 @@
         "git-objects-commit-3.md",
         "git-objects-commit-4.md",
         "git-objects-commit-5.md"
+    ],
+    [
+        "git-branch.md",
+        "git-branch-1.md"
+    ],
+    [
+      "git-configuration.md",
+      "git-configuration-1.md"
     ]
 ]

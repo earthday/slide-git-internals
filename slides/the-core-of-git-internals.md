@@ -4,4 +4,4 @@
 * references (refs)
 * the index
 
-<img src='images\05.png' />
+<img src='images/05.png' />
