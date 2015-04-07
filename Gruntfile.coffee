@@ -30,7 +30,7 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
-        
+
         connect:
 
             livereload:
@@ -82,7 +82,25 @@ module.exports = (grunt) ->
                     filter: 'isFile'
                 }]
 
-        
+        buildcontrol:
+
+            options:
+                dir: 'dist'
+                commit: true
+                push: true
+                message: 'Built %sourceName% from commit' +
+                         ' %sourceCommit% on branch %sourceBranch%'
+
+            pages:
+                options:
+                    remote: 'git@git.autodesk.com:chenbr/' +
+                            'slide-git-internals.git'
+                    branch: 'gh-pages'
+
+            local:
+                options:
+                    remote: '../'
+                    branch: 'build'
 
 
     # Load all grunt tasks.
@@ -124,6 +142,12 @@ module.exports = (grunt) ->
             'copy'
         ]
 
+    grunt.registerTask 'deploy',
+        'Deploy presentation to github.com pages.', [
+            'test'
+            'buildIndex'
+            'buildcontrol:pages'
+        ]
     
 
     # Define default task.
