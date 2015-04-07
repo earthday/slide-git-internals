@@ -146,6 +146,7 @@ module.exports = (grunt) ->
         'Deploy presentation to github.com pages.', [
             'test'
             'buildIndex'
+            'buildcontrol'
             'buildcontrol:pages'
         ]
     
