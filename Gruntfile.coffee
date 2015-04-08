@@ -144,8 +144,7 @@ module.exports = (grunt) ->
 
     grunt.registerTask 'deploy',
         'Deploy presentation to github.com pages.', [
-            'test'
-            'buildIndex'
+            'dist'
             'buildcontrol:pages'
         ]
     
