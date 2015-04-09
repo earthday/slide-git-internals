@@ -1,3 +1,3 @@
 # Git Internals
 
-[https://git.autodesk.com/pages/chenbr/slide-git-internals/](https://git.autodesk.com/pages/chenbr/slide-git-internals/)
+[https://earthday.github.io/slide-git-internals/](https://earthday.github.io/slide-git-internals/)

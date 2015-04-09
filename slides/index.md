@@ -3,9 +3,9 @@
 
 ### Bright Chen
 
-### [https://git.autodesk.com/chenbr/slide-git-internals.git](https://git.autodesk.com/chenbr/slide-git-internals.git)
+### [https://earthday.github.io/slide-git-internals](https://earthday.github.io/slide-git-internals)
 
-Note: 
+Note:
 From the terminal, pop in:
 
   ```yo reveal:slide "Slide Title"```

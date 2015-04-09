@@ -93,7 +93,7 @@ module.exports = (grunt) ->
 
             pages:
                 options:
-                    remote: 'git@git.autodesk.com:chenbr/' +
+                    remote: 'git@github.com:earthday/' +
                             'slide-git-internals.git'
                     branch: 'gh-pages'
 
@@ -147,7 +147,7 @@ module.exports = (grunt) ->
             'dist'
             'buildcontrol:pages'
         ]
-    
+
 
     # Define default task.
     grunt.registerTask 'default', [
